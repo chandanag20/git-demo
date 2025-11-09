@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+     
+    
+   
+}
+body{
+    background-color: #0f172a;
+    background:linear-gradient(to bottom,gray,black);
+   
+    
+       
+}
+.inner{
+    padding-top: 20px;
+}
+.header{
+    text-align:center;
+    color:#00ffff;
+    padding: 1rem;
+    position: relative;
+}
+.header:after{
+    content: '';
+    position: :absolute;
+    bottom:0;
+    left:50%;
+    transform:translatex(-50%);
+    height:4px;
+    width:100px;
+    background-color:#2ecc71;
+     
+   
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+   
+    
+}
+.card{
+    width:100px;
+    height:100px;
+    position:relative;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-delay: 1s
+    animation-iteration-count: infinite;
+    border-radius:5px;
+
+}
+@keyframes myAnimation{
+    from{
+        width:100px;
+        height:100px
+    }
+    to{
+        width:200px;
+        height:200px;
+    }
+}
+p{
+    color:azure;
+}
+h3{
+    color:aqua;
+}
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+nav{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    padding:0px 50px;
+    position: fixed;
+    background-color:  #000a21;
+
+
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+
+
+}
+
+nav ul{
+    float:right;
+}
+nav li{
+    display:inline-block;
+    list-style:none;
+}
+nav li a{
+    font-size:18px;
+    text-transform: uppercase;
+    padding:0px 10px;
+    color:white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:#ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+.card{
+    transition: transform 0.5s ease;
+}
+
+.card:hover{
+    transform:scale(1.2);
+}

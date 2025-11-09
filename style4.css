@@ -1,0 +1,148 @@
+
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+nav{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    padding:0px 50px;
+    position: fixed;
+    background-color:  #000a21;
+
+
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+
+
+}
+
+nav ul{
+    float:right;
+}
+nav li{
+    display:inline-block;
+    list-style:none;
+}
+nav li a{
+    font-size:18px;
+    text-transform: uppercase;
+    padding:0px 10px;
+    color:white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:#ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    
+  background : #0f172a;
+  color: white;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(to right, #002b5b, #005a9c);
+  height: 30vh;
+  color: #00ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d") center/cover no-repeat;
+  opacity: 0.25;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+}
+
+.header h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* ABOUT SECTION */
+.about {
+  max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.about h2 {
+  color: #00ffff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* INTERNSHIP SECTION */
+.internship {
+  background: #0f172a;
+  padding: 60px 20px;
+}
+
+.internship h2 {
+  text-align: center;
+  color: #00ffff;
+  margin-bottom: 40px;
+}
+
+.internship-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.internship-card .text {
+  flex: 1;
+}
+
+.internship-card .image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px #00ffff;
+  
+}
+
